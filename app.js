@@ -48,12 +48,12 @@ app.get('/dashboard', function(req,res) {
   }
 )
 
-app.post('/users/id/votes', function(req,res) {
+app.post('/users/:id/votes', function(req,res) {
 
   }
 )
 
-app.delete('/users/id/votes', function(req,res) {
+app.delete('/users/:id/votes', function(req,res) {
 
   }
 )
